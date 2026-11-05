@@ -14,7 +14,7 @@
            sync-j="4" />
 
   <!-- ===== build ===== -->
-  <project path="build" name="platform/build">
+  <project path="build" name="aries-legacy-android/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -83,12 +83,12 @@
   <project path="external/zlib" name="platform/external/zlib" />
 
   <!-- ===== frameworks ===== -->
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="aries-legacy-android/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
   <!-- ===== hardware ===== -->
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="aries-legacy-android/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
@@ -131,7 +131,7 @@
 
   <!-- ===== system ===== -->
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
+  <project path="system/core" name="aries-legacy-android/android_system_core" remote="github" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
