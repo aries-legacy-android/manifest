@@ -138,4 +138,9 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
+  <!-- ===== aries ===== -->
+  <project path="device/xiaomi/aries" name="aries-legacy-android/android_device_xiaomi_aries" remote="github" />
+  <project path="kernel/xiaomi/aries" name="aries-legacy-android/android_kernel_xiaomi_aries" remote="github" />
+  <project path="vendor/xiaomi/aries" name="aries-legacy-android/android_vendor_xiaomi_aries" remote="github" />
+
 </manifest>
